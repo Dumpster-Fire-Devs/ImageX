@@ -1,27 +1,24 @@
-# ImageX
+# Image Converter
 
-
-This Python project allows users to convert images into text or binary files and restore them back into images. It features a simple GUI for file selection and conversion options.
+This program allows you to convert image formats using Python. It supports several popular image formats and comes with a simple GUI interface built with `tkinter`.
 
 ## Features
-
-- Convert images to `.txt` or `.bin` format.
-- Restore images from `.txt` or `.bin` files.
-- Supports all standard image formats (e.g., PNG, JPG, JPEG).
-- Option to choose between text or binary formats for storage.
-- Simple drag-and-drop GUI for user-friendly interactions.
+- Convert between various image formats (e.g., PNG, JPEG, BMP, etc.)
+- Simple graphical user interface (GUI) built with `tkinter`
+- Built-in image preview functionality
 
 ## Requirements
 
-- Python 3.8 or higher
-- Required Python libraries:
-  - `Pillow`: For image processing.
-  - `numpy`: For efficient handling of pixel data.
-  - `tkinter`: For a GUI
-  - `zlib`: For data compression
+To run this program, you need to install the following Python packages:
 
-## Installation
+- Pillow
+- opencv-python
+- numpy
+- imageio
+- tkinter (included with Python on most systems)
+- zlib (included with Python by default)
 
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/yourusername/image-converter.git
+You can install all required packages by running:
+
+```bash
+pip install -r requirements.txt
