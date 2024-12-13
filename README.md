@@ -17,6 +17,8 @@ This Python project allows users to convert images into text or binary files and
 - Required Python libraries:
   - `Pillow`: For image processing.
   - `numpy`: For efficient handling of pixel data.
+  - `tkinter`: For a GUI
+  - `zlib`: For data compression
 
 ## Installation
 
